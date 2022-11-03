@@ -42,8 +42,8 @@ const App = () => {
   const [passwordError, setPasswordError] = useState(false)
   const [success, setSuccess] = useState(false)
   const [users, setUsers] = useState([{
-    email: "t",
-    password: "t"
+    email: "test@gmail.com",
+    password: "testPassword"
   }])
   const [isPasswordHide, setIsPasswordHide] = useState(true)
 
